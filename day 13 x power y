@@ -1,0 +1,14 @@
+//program to print x power y
+#include<stdio.h>
+#include<math.h>
+main()
+{
+	 int x,y;
+	 printf("enter x value: ");
+	 scanf("%d",&x);
+	 printf("enter y value: ");
+	 scanf("%d",&y);
+	 y=pow(x,y);
+	 printf("Your answer: %d",y);
+	 
+}
