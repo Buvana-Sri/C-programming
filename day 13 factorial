@@ -1,12 +1,13 @@
+//factorial of a given number
 #include<stdio.h>
 main()
 {
-	 int number,fact=1;
+	 int n,fact=1;
 	 printf("enter a number\n");
-	 scanf("%d",&number);
-	 while(fact<=number)
+	 scanf("%d",&n);
+	 while(fact<=n)
 	 {
-	 	if(number%fact==0)
+	 	if(n%fact==0)
 	 	{
 	 		printf("%d\n",fact);
 		}
