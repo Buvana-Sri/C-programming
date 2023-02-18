@@ -1,0 +1,13 @@
+//program to print table of user's choice
+#include<stdio.h>
+main()
+{
+	 int num,i=1,table=1;
+	 scanf("%d",&num);
+	 while(i<=10)
+	 {
+	 printf("%d x %d = %d\n",num,i,table*num);
+	 i++;
+	 table++;
+}
+}
