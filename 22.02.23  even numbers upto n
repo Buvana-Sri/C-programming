@@ -1,0 +1,18 @@
+//even numbers upto n
+#include<stdio.h>
+main()
+{
+	int n,i=1,even=0;
+	scanf("%d",&n);
+	while(i<=n)
+	{
+		i++;
+		if(i%2==0)
+		{
+		even=i;
+		printf("%d\t",even);
+    	}
+		
+	}
+	
+}
