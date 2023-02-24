@@ -1,0 +1,12 @@
+//nth multiplication table
+#include<stdio.h>
+main()
+{
+	 int n,i,table=0;
+	 scanf("%d",&n);
+	 for(i=1;i<=n;i++)
+	 {
+	 	table=n*i;
+	 	printf("%d x %d = %d\n",n,i,table);
+	 }
+}
