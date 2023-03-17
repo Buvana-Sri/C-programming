@@ -1,0 +1,13 @@
+// area of rectangle using functions
+#include<stdio.h>
+int main()
+{
+	int area();
+   printf("%d ",area());
+}
+int area()
+{
+    int l,b;
+    scanf("%d %d",&l,&b);
+    return l*b;
+}
