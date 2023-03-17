@@ -1,0 +1,15 @@
+// cube of n using functions
+#include <stdio.h>
+int main()
+{
+    int n,c;
+    scanf("%d",&n);
+    int cube(int n);
+    c = cube(n);
+     printf("%d",c); 
+    return 0;
+}
+int cube(int n)
+{
+    return (n*n*n);
+}
